@@ -1,0 +1,97 @@
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: linear-gradient(90deg, #E8C794 0%, #D0B17A 100%);
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+    position: sticky;
+    text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #E7CE98;
+  padding: 7px;
+  margin: 1em auto;
+  width: 25%;
+  border: 2px solid;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+body {
+    background-image: url('images/WhatsApp\ Image\ 2025-07-21\ at\ 9.37.50\ PM.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centered-content {
+    text-align: justify;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #98B1E7;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-img {
+    position: static;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 0;
+    padding: 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 2px solid red;
+    border-radius: 12px;
+    background: #111;
+    transition: background 0.2s, border 0.2s;
+}
+
+.social-icon img {
+    width: 28px;
+    height: 28px;
+}
+
+.social-icon:hover {
+    background: #879DCC;
+    border-color: #879DCC;
+}
+
+#contact-section {
+  text-align: center;
+  background-color: #CCB687;
+  color: #fff;
+}
+
+.work-container {
+    padding: 2%;
+    text-align: center;
+}
