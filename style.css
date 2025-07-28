@@ -35,7 +35,7 @@ body {
     text-align: justify;
     max-width: 900px;
     margin: 40px auto;
-    background: #98B1E7;
+    background-color: rgba(255,255,255,0.5);
     border-radius: 16px;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
     padding: 32px;
@@ -87,7 +87,7 @@ body {
 
 #contact-section {
   text-align: center;
-  background-color: #CCB687;
+  background: linear-gradient(90deg, #CCB687 30%, #D3BB8B 40%);
   color: #fff;
 }
 
